@@ -7,7 +7,9 @@
     <body>
         <?php
         // put your code here
-        echo 'test';
+        $email = 'foo@example.com';
+        echo 'Meine Emailadresse ist: ';
+        echo $email;
         ?>
     </body>
 </html>
