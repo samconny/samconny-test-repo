@@ -12,7 +12,7 @@
                 Verbinden();
                 $daten = DatenAbfragen();
                 VerbindungBeenden();
-            } while ($daten > 40);
+        } while ($daten > 40);
         ?>
     </body>
 </html>
