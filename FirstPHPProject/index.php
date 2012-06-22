@@ -8,6 +8,8 @@
         <?php
         // put your code here
         echo 'test';
+        $test2 = 'TEST 2'; 
+        echo $test2;
         ?>
     </body>
 </html>
