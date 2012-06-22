@@ -7,7 +7,11 @@
     <body>
         <?php
         // put your code here
-        echo 'test';
+        echo 'test';do {
+    Verbinden();
+    $daten = DatenAbfragen();
+    VerbindungBeenden();
+} while ($daten > 40);
         ?>
     </body>
 </html>
